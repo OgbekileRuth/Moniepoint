@@ -1,0 +1,30 @@
+
+/* Define the keyframes for right-to-left animation */
+@keyframes slideinleft {
+    from {
+    transform: translateX(-300px); /* Start off-screen to the right */
+}
+to{
+    transform: translateX(0); /* End at the original position */
+    opacity: 1;
+    }
+}
+
+        /* Apply the animation to the logo images */
+        .animate-slideinleft {
+        animation: slideRightToLeft 1s ease-out forwards;
+    }
+
+    /* Add slight delay to each logo for a staggered effect */
+    .logo-1 { animation-delay: 0.1s; }
+    .logo-2 { animation-delay: 0.3s; }
+    .logo-3 { animation-delay: 0.5s; }
+    .logo-4 { animation-delay: 0.7s; }
+    .logo-5 { animation-delay: 0.9s; }    
+
+        
+
+
+
+
+
